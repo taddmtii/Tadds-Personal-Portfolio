@@ -1,10 +1,9 @@
 import Navbar from './components/Navbar'
-import './App.css'
 
 export default function App() {
   return (
-    <div className="gradient_background">
-      <nav className='nav'><Navbar /></nav>
+    <div className="bg-[linear-gradient(to_right,_#d1d3ff,_#48d6ff)] w-screen h-screen">
+      <nav className='flex justify-center pt-5'><Navbar /></nav>
     </div>
   )
 }
